@@ -37,7 +37,7 @@ io.on('connection', (socket) => {
   });
 });
 
-app.use(cors({ origin: ['http://localhost:5173', 'http://localhost:5174'], credentials: true }));
+app.use(cors({ origin: ['http://localhost:5173', 'http://localhost:5174', 'https://digital-management-system-omega.vercel.app'], credentials: true }));
 app.use(express.json());
 
 // Serve uploaded images as static files
